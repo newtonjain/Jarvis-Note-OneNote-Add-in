@@ -1,0 +1,13 @@
+{
+    "ui": {
+        "port": "process.env.PORT" 
+    },
+    "server": {
+        "routes": {
+            "/node_modules": "node_modules"
+        }
+    },
+    "https": true,
+    "watch": true,
+    "files": "*.*"
+}
